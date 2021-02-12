@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "118808433211",
+    "project_id": "sellapp-e0edd",
+    "storage_bucket": "sellapp-e0edd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118808433211:android:f5754ffbe060c4d2ea021e",
+        "android_client_info": {
+          "package_name": "com.ajith.sellapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118808433211-h9h9ve3odv9hs6tmvbq29feivmhqqbqp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ajith.sellapp",
+            "certificate_hash": "86fb1885fa220ddd045afbaa16d9d065b57351e4"
+          }
+        },
+        {
+          "client_id": "118808433211-avtaoljksq1889otda4sbm9n03h73bnj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQVc_VzolQQyjvlE58y-PnF8QkgFQ4gLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118808433211-avtaoljksq1889otda4sbm9n03h73bnj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

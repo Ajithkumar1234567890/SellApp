@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SellApp</string>
+    <string name="txt_welcome_to_buy_n_sell">Welcome to SellApp</string>
+    <string name="login_now">Login</string>
+    <string name="txt_register_now">Register Now</string>
+    <string name="mobile_number">Mobile No.</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">forgot password</string>
+    <string name="signin">Login</string>
+    <string name="new_user">New User?</string>
+    <string name="txt_registration">Registration</string>
+    <string name="register">Register</string>
+    <string name="email_id">Email Id</string>
+    <string name="user_name">User Name</string>
+    <string name="name">Name</string>
+    <string name="txt_cart">cart</string>
+    <string name="txt_profile">profile</string>
+    <string name="txt_description">Description</string>
+    <string name="txt_product_name">Product Name</string>
+    <string name="txt_twodotde">" : "</string>
+    <string name="txt_quantity">Quantity</string>
+    <string name="txt_price">Price</string>
+    <string name="txt_add_to_cart">Add to Cart</string>
+    <string name="userid_empty">UserName Empty</string>
+    <string name="name_empty">Name Empty</string>
+    <string name="enter_mobile">Enter Mobile No.</string>
+    <string name="mobile_no_length">Length should be 10</string>
+    <string name="passwor_empty">password empty</string>
+    <string name="email_empty">Email Id Empty</string>
+</resources>

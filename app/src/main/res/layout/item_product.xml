@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen_8dp"
+    android:orientation="vertical"
+    android:tag="cards main container">
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="https://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_4dp"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardCornerRadius="15dp"
+        card_view:cardElevation="10dp"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_product"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_200dp"
+                android:tag="image_tag" />
+
+            <LinearLayout
+                android:id="@+id/lnr_first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_product"
+                android:layout_marginStart="@dimen/dimen_2dp"
+                android:layout_marginLeft="@dimen/dimen_2dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tet_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_2dp"
+                    android:text="@string/txt_description" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_2dp"
+                    android:text="@string/txt_twodotde"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_desc_details"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lnr_third"
+                    android:layout_marginStart="@dimen/dimen_2dp"
+                    android:layout_marginLeft="@dimen/dimen_2dp"
+                    android:layout_marginTop="@dimen/dimen_2dp"
+                    android:layout_toEndOf="@+id/lnr_second"
+                    android:layout_toRightOf="@+id/lnr_second"
+                    android:gravity="start"
+                    android:maxLines="2"
+                    android:text="@string/txt_description"
+                    android:textAlignment="textStart" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/txt_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/image_product"
+                android:layout_alignLeft="@+id/image_product"
+                android:layout_alignBottom="@+id/image_product"
+                android:maxLines="1"
+                android:paddingStart="@dimen/dimen_4dp"
+                android:paddingEnd="@dimen/dimen_4dp"
+                android:paddingBottom="@dimen/dimen_4dp"
+                android:text="@string/txt_product_name"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

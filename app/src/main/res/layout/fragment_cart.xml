@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcy_cart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/dimen_10dp"
+        android:layout_marginBottom="@dimen/dimen_16dp"
+        android:layout_above="@+id/txt_total"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_place_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Place Order"
+        android:textColor="@android:color/white"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/txt_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Amount"
+        android:textSize="@dimen/dimen_25sp"
+        android:layout_above="@+id/btn_place_order"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/txt_tot_rs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs.123"
+        android:textSize="@dimen/dimen_25sp"
+        android:layout_above="@+id/btn_place_order"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>
